@@ -15,7 +15,7 @@ if variable:
   fig, ax = plt.subplots()
   ax.plot(time_series)
   ax.set_title("This is my graph title")
-  ax.set_xlabel("Units)
+  ax.set_xlabel("Units")
   ax.set_ylabel("Value")
   st.pyplot(fig)
 
